@@ -61,6 +61,7 @@ You will be running your tests in one terminal and debugging in the other. As yo
 Edit the `ReadMe` file with your answers to the questions below.
 
 1. In your own words, define closure (1-2 sentences).
+Closures are created when a function is made.
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -82,8 +83,11 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+function personalDice(name{  - Because thats when the function was made
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+The output is the same. Zoe could change.
 c. What is the lexical scope of `newRoll`? 
+personalDice
 
 
 ### Task 3 - Stretch Goals
